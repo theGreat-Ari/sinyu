@@ -34,10 +34,12 @@ function createHearts(slideIndex){
 
 /* Surprise Button */
 const surpriseBtn = document.getElementById('surpriseBtn');
+const surpriseMsg = document.getElementById('surpriseMsg');
+const audio = document.getElementById('valentineSong');
+
 if(surpriseBtn){
-  surpriseBtn.addEventListener('click',()=>{
-    const audio = document.getElementById('valentineSong');
+  surpriseBtn.addEventListener('click', ()=>{
     if(audio) audio.play();
-    alert('LOVE YOU MORE SAYANG 💖');
+    if(surpriseMsg) surpriseMsg.style.display = 'block';
   });
 }
