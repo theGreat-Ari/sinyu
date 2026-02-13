@@ -134,6 +134,10 @@ button:hover{
 }
 
 /* LETTER */
+/* Slide 3 letter warna hitam */
+.slide.slide3 .letter span {
+  color: black;
+}
 .letter{
   max-width:90%;
   width:400px;
