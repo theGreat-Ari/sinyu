@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Valentine ❤️</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Slide 1 -->
+<div class="slide active">
+  <h1 class="title">Happy Valentine's Day! ❤️</h1>
+  <div class="hearts"></div>
+  <div class="heart left">❤️</div>
+  <div class="heart right">❤️</div>
+  <img src="images/bear.jpg" class="bear">
+  <p class="love">For My Valentine...</p>
+  <p class="face">(｡･ω･｡)</p>
+  <p class="click">Click the next button!! (づ｡◕‿‿◕｡)づ ❤️</p>
+  <button onclick="nextSlide()">Next!! ^w^</button>
+</div>
+
+<!-- Slide 2 -->
+<div class="slide">
+  <h1>My beloved Wife ❤️📸</h1>
+  <p>Every moment with you is my favorite story 🤍</p>
+  <div class="gallery">
+    <img src="images/foto1.jpg">
+    <img src="images/foto2.jpg">
+    <img src="images/foto3.jpg">
+    <img src="images/foto4.jpg">
+    <img src="images/foto5.jpg">
+    <img src="images/foto6.jpg">
+  </div>
+  <div class="nav">
+    <button onclick="prevSlide()">⬅ Back</button>
+    <button onclick="nextSlide()">Next ➜</button>
+  </div>
+</div>
+
+<!-- Slide 3 -->
+<div class="slide">
+  <h1>For My Favorite Person 💗</h1>
+  <div class="letter">
+    <span class="first-line">Dear my beloved wife,</span>
+    <span>Thank you for letting me be part of your life. I love you with all my heart...</span>
+    <span>I’m so grateful that you’re still my beautiful wife today...</span>
+    <span>I work hard every day because I want everything to feel just right for you...</span>
+    <span>I love you so deeply that it feels like the whole universe already knows it.</span>
+    <span>I can’t wait for all the moments we’ll share together...</span>
+    <span>I keep imagining us riding a Harley in Hawaii...</span>
+    <span>I hope we stay together for a very long time...</span>
+    <span>Love you always,</span>
+    <span>your Valentine,</span>
+    <span>your gorgeous, beautiful, adorable wife.</span>
+  </div>
+  <div class="nav">
+    <button onclick="prevSlide()">⬅ Back</button>
+    <button onclick="nextSlide()">Next ➜</button>
+  </div>
+</div>
+
+<!-- Slide 4 -->
+<div class="slide">
+  <h1>Forever Yours ❤️</h1>
+  <p class="closing-text">Thank you for being mine, my love.</p>
+  <div class="hearts"></div>
+  <button id="surpriseBtn">Open Your Surprise ❤️</button>
+  <audio id="valentineSong" src="valentine.mp3" controls autoplay></audio>
+  <div class="nav">
+    <button onclick="prevSlide()">⬅ Back</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
